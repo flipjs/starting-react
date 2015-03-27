@@ -1,0 +1,19 @@
+{
+  "name": "ReactTools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify -t reactify src/app.js > build/app.js"
+  },
+  "author": "Felipe Apostol <flipjs.io@gmail.com> (http://flipjs.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "react-tools": "^0.11.2",
+    "reactify": "^0.14.0"
+  },
+  "dependencies": {
+    "react": "^0.11.2"
+  }
+}
